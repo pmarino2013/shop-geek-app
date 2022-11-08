@@ -1,0 +1,29 @@
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item img {
+  height: 50vh;
+  object-fit: cover;
+  filter: grayscale(0.5);
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.586);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.img-card {
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card {
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}

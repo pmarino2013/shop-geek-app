@@ -1,0 +1,14 @@
+.footer-background {
+  background-color: #6c409c;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-background__logo {
+  width: 60px;
+}
+
+.footer-redes {
+  width: 41px;
+}
